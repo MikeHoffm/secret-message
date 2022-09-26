@@ -1,0 +1,154 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+font-family: 'Silkscreen', cursive;
+background-color: black;
+color: white;
+font-size: 1.2em;
+width: 100%;
+height: 100%;
+margin: 0;
+/*border: 5px solid purple; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.play-screen {
+    border: 5px solid white; 
+    background-color: black;
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* TITLE SCREEN */
+.title-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* border: 5px solid red; */
+    gap: 5%;
+}
+
+.date {
+    margin-top: 25%;
+    margin-bottom: 0;
+    width: 700px;
+    /* border:3px solid red; */
+   
+}
+
+.begin, .restart a {
+    text-decoration: none;
+    color: rgb(91, 87, 87);
+    margin: 0;
+    /*border:3px solid green; */
+}
+
+.begin:hover, .restart a:hover {
+    color: yellow;
+}
+
+/* GAMEPLAY BEGIN */
+.main-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0;
+}
+
+.flowey {
+ /*   border: 5px solid red; */
+    height: 200px;
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-box {
+    border: 10px solid white;
+    background-color: black;
+    display: inline-block;
+    width:  550px;
+    height: 700px;
+    margin: 5% 25% 0 25%;
+
+}
+
+p {
+    margin: 10px;
+}
+
+.yn-container {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.y:hover, .n:hover, .liar:hover, .not-liar:hover {
+    color: yellow;
+}
+
+.liar {
+    display: none;
+}
+
+.not-liar {
+    display: none;
+}
+
+/* QUIZ */
+.answers, .answers2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
+    color: yellow;
+}
+
+/* FINAL MESSAGE */
+
+.final-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.final-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 7%;
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.final-txt {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#love {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
